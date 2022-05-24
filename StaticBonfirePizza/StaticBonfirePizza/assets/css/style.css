@@ -1005,8 +1005,8 @@ h1.loader2 {
         }
 
 .logo .img-responsive {
-    margin-left: 112px;
-    margin-top: -10px;
+    margin-left: 0px;
+    margin-top: 0px;
     width: auto;
     display: inline-block;
 }
