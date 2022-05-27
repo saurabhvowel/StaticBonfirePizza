@@ -22,10 +22,11 @@
     <style>
 
         @@media only screen and (min-width: 375px) and (max-width: 767px) {
-           .ordernow{
-               display:none;
-           }
+            .ordernow {
+                display: none;
+            }
         }
+
         img.img-responsive {
             margin-top: 3px;
         }
@@ -95,7 +96,7 @@
                         </div>
                     </div>
 
-                    
+
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <div class="footer-head">
                         </div>
@@ -173,7 +174,42 @@
     <script src="../assets/js/map.js"></script>
     <!-- custom js -->
     <script src="../assets/js/custom.js"></script>
-
+    <script>
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?40223';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+  "enabled":true,
+  "chatButtonSetting":{
+      "backgroundColor":"#4dc247",
+      "ctaText":"",
+      "borderRadius":"25",
+      "marginLeft":"0",
+      "marginBottom":"50",
+      "marginRight":"50",
+      "position":"right"
+  },
+  "brandSetting":{
+      "brandName":"Bonfire Pizza Point",
+      "brandSubTitle":"",
+      "brandImg":"http://www.bonfirepizzapoint.solversolutiongroup.com/assets/images/logo.png",
+      "welcomeText":"Hi there!\nHow can I help you?",
+      "messageText":"Hello, I have a question about {{page_link}}",
+      "backgroundColor":"#c10a28",
+      "ctaText":"Start Chat",
+      "borderRadius":"25",
+      "autoShow":false,
+      "phoneNumber":"919650672515"
+  }
+};
+    s.onload = function() {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+    </script>
 </body>
 
 </html>
