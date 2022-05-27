@@ -180,6 +180,7 @@
     <Content Include="assets\images\blog1.jpg" />
     <Content Include="assets\images\blog2.jpg" />
     <Content Include="assets\images\blog3.jpg" />
+    <Content Include="assets\images\BonfirPizzaPoint.png" />
     <Content Include="assets\images\boy.jpg" />
     <Content Include="assets\images\brd.png" />
     <Content Include="assets\images\brd2.png" />
@@ -259,8 +260,6 @@
     <Content Include="assets\images\Layer-19.jpg" />
     <Content Include="assets\images\loader.gif" />
     <Content Include="assets\images\logo.png" />
-    <Content Include="assets\images\logo1.png" />
-    <Content Include="assets\images\logo2.png" />
     <Content Include="assets\images\momos.png" />
     <Content Include="assets\images\p-img1.png" />
     <Content Include="assets\images\p-img10.png" />
@@ -305,6 +304,7 @@
     <Content Include="assets\images\slider-bg1.jpg" />
     <Content Include="assets\images\slider-png1.png" />
     <Content Include="assets\images\taco.png" />
+    <Content Include="assets\images\veg.png" />
     <Content Include="assets\js\bootstrap.min.js" />
     <Content Include="assets\js\custom.js" />
     <Content Include="assets\js\dscountdown.min.js" />
