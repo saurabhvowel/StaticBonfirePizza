@@ -193,6 +193,7 @@
     <Content Include="assets\images\crt2.png" />
     <Content Include="assets\images\crt3.png" />
     <Content Include="assets\images\crt4.png" />
+    <Content Include="assets\images\Delivery.png" />
     <Content Include="assets\images\drinks.png" />
     <Content Include="assets\images\fav2.ico" />
     <Content Include="assets\images\footer-bg.jpg" />
@@ -206,6 +207,9 @@
     <Content Include="assets\images\gt-logo_1.png" />
     <Content Include="assets\images\gt-logo_2.png" />
     <Content Include="assets\images\habit2.jpg" />
+    <Content Include="assets\images\Hungry.gif" />
+    <Content Include="assets\images\Hungry.png" />
+    <Content Include="assets\images\Hungry1.png" />
     <Content Include="assets\images\img.png" />
     <Content Include="assets\images\img00.png" />
     <Content Include="assets\images\img1.png" />
@@ -308,6 +312,7 @@
     <Content Include="assets\js\bootstrap.min.js" />
     <Content Include="assets\js\custom.js" />
     <Content Include="assets\js\dscountdown.min.js" />
+    <Content Include="assets\js\google_review.js" />
     <Content Include="assets\js\jquery.magnific-popup.min.js" />
     <Content Include="assets\js\jquery.min.js" />
     <Content Include="assets\js\jquery.nice-select.js" />
