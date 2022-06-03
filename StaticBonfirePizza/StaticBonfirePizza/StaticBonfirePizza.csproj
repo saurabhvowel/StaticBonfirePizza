@@ -157,6 +157,7 @@
     <Content Include="assets\fonts\slick.svg" />
     <Content Include="assets\images\about.jpg" />
     <Content Include="assets\images\Aboutpizza.png" />
+    <Content Include="assets\images\Aboutpizza1.png" />
     <Content Include="assets\images\ajax-loader.gif" />
     <Content Include="assets\images\bg.png" />
     <Content Include="assets\images\bg1.png" />
