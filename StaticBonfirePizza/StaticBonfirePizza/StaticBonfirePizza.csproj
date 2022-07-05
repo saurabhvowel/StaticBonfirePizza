@@ -189,6 +189,9 @@
     <Content Include="assets\images\brd2_2.png" />
     <Content Include="assets\images\brd_2.png" />
     <Content Include="assets\images\btm-style.png" />
+    <Content Include="assets\images\callnow.gif" />
+    <Content Include="assets\images\callnow1.gif" />
+    <Content Include="assets\images\callnow2.gif" />
     <Content Include="assets\images\ckn.png" />
     <Content Include="assets\images\clr2\btm-style.png" />
     <Content Include="assets\images\crt1.png" />
