@@ -182,6 +182,7 @@
     <Content Include="assets\images\blog2.jpg" />
     <Content Include="assets\images\blog3.jpg" />
     <Content Include="assets\images\BonfirPizzaPoint.png" />
+    <Content Include="assets\images\BonfirPizzaPoint1.png" />
     <Content Include="assets\images\boy.jpg" />
     <Content Include="assets\images\brd.png" />
     <Content Include="assets\images\brd2.png" />
@@ -324,6 +325,8 @@
     <Content Include="assets\videos\vid1.mp4" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="sitemap.xml" />
+    <Content Include="Views\Shared\pool_side_menu_logo.png" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -363,6 +366,7 @@
     <Content Include="assets\fonts\slick.woff" />
     <Content Include="assets\fonts\slickd41d.eot" />
     <None Include="packages.config" />
+    <Content Include="Views\Home\Privacy.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

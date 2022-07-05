@@ -2,7 +2,38 @@
 <html lang="en">
 
 <head>
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1263707144366777');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=1263707144366777&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+
     <meta name="google-site-verification" content="4K5BOgypDG_pXEoNcxUZcTdilJJPtKXAknY3a0GWSFI" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-231716191-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-231716191-1');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bonfire Pizza</title>
@@ -46,12 +77,12 @@
                     <div class="row">
                         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                             <div class="logo">
-                                <a href="http://bonfirepizzapoint.com/"><img src="../assets/images/BonfirPizzaPoint.png" alt="logo" class="img-responsive"></a>
+                                <a href="https://bonfirepizzapoint.com/"><img src="../assets/images/BonfirPizzaPoint.png" alt="logo" class="img-responsive"></a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="ordernow">
-                                <a href="http://menu.bonfirepizzapoint.com/" target="_blank"><img src="../assets/images/Hungry.gif" alt="Order Now" class="img-responsive"></a>
+                                <a href="https://menu.bonfirepizzapoint.com/" target="_blank"><img src="../assets/images/Hungry.gif" alt="Order Now" class="img-responsive"></a>
                             </div>
                         </div>
                     </div>
@@ -110,21 +141,38 @@
                             </ul>
                             <ul class="social-nav">
                                 <li><a href="https://www.facebook.com/piyapriy" target="_blank"><i class="flaticon-facebook-logo"></i></a></li>
+
                             </ul>
                         </div>
+                        <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8">
+                            <!-- hitwebcounter Code START -->
+                            <a href="https://www.hitwebcounter.com" target="_blank">
+                                <img src="https://hitwebcounter.com/counter/counter.php?page=8002235&style=0009&nbdigits=5&type=page&initCount=51" title="Free Counter" Alt="web counter" border="0" />
+                            </a>
+
+                        </div>
+                        </div>
+
 
                     </div>
-
-
-                </div>
             </div>
-        </footer>
+        </footer>       
+
+
         <div class="copy-right">
             <div class="container">
-                <p><a href="#">Bonfire Pizza</a> - All Rights Reserved Design</p>
-
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <p>© 2022 <span class="template-name">Bonfire Pizza Point</span></p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <p><a href="Home/Privacy">Our Policies</a></p>
+                    </div>                   
+                </div>
             </div>
         </div>
+
+
         <span id="go_to_top" class="go-to-top"><i class="flaticon-up-arrow"></i></span>
 
         <div class="theme-menu hide-sidebar">
@@ -212,5 +260,4 @@
     x.parentNode.insertBefore(s, x);
     </script>
 </body>
-
 </html>
