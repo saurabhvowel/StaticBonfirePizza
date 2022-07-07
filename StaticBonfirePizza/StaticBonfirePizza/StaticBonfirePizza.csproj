@@ -200,6 +200,7 @@
     <Content Include="assets\images\crt4.png" />
     <Content Include="assets\images\Delivery.png" />
     <Content Include="assets\images\drinks.png" />
+    <Content Include="assets\images\facebook_icon.png" />
     <Content Include="assets\images\fav2.ico" />
     <Content Include="assets\images\footer-bg.jpg" />
     <Content Include="assets\images\fries.png" />
@@ -258,6 +259,7 @@
     <Content Include="assets\images\img9.jpg" />
     <Content Include="assets\images\img9.png" />
     <Content Include="assets\images\info-bg.jpg" />
+    <Content Include="assets\images\instagram_icon.png" />
     <Content Include="assets\images\last-grl.jpg" />
     <Content Include="assets\images\Layer-12.jpg" />
     <Content Include="assets\images\Layer-13.jpg" />

@@ -63,7 +63,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {    
+time, mark, audio, video {
     padding: 0;
     border: 0;
     outline: 0;
@@ -1010,6 +1010,7 @@ h1.loader2 {
     width: inherit;
     margin-left: 0px;
 }
+
 .logo .img-responsive {
     margin-left: 0px;
     margin-top: 0px;
@@ -2613,7 +2614,7 @@ a.btn1.stl1.animated {
         .social-nav li a {
             display: inline-block;
             line-height: 30px;
-            border: 2px solid #fff;
+            /*border: 2px solid #fff;*/
             text-align: center;
             width: 34px;
             opacity: 0.5;
