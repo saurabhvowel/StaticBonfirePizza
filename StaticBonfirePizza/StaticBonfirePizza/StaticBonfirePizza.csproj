@@ -314,6 +314,7 @@
     <Content Include="assets\images\sldr.png" />
     <Content Include="assets\images\slider-bg1.jpg" />
     <Content Include="assets\images\slider-png1.png" />
+    <Content Include="assets\images\star.png" />
     <Content Include="assets\images\taco.png" />
     <Content Include="assets\images\veg.png" />
     <Content Include="assets\js\bootstrap.min.js" />
