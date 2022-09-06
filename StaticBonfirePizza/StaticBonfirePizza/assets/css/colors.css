@@ -44,59 +44,59 @@ a.link:hover,
 
 
 
-.btn2,
-.main-nav,
-.btn1.stl2,
-.btn1.stl1:hover,
-.special-offer-block .nav>li>.tab-a:hover:before,
-.special-offer-block .owl-nav .owl-next:hover i:before,
-.special-offer-block .owl-nav .owl-prev:hover i:before,
-.special-offer-block .nav>li>span.active:before,
-.btn3,
-.deal-of-day .owl-nav .owl-next:hover,
-.deal-of-day .owl-nav .owl-prev:hover,
-.btn4:hover,
-.copy-right,
-.filter-tabnav .button-group li span:before,
-.btn1.stl3:hover,
-.block-stl10 .btn5:hover,
-.block-stl11 i:before,
-.block-stl14 .img-holder .overlay:before,
-.great-thankful .img-holder:hover:before,
-.tags li a:hover,
-.special-offer-block .nav .filterer.active-btn span:before,
-.special-offer-block .nav .filterer span:before,
-.deal-of-day .dsCountDown.ds-white,
-.dsCountDown .ds-element-days, .dsCountDown .ds-element-minutes,
-.dsCountDown .ds-element-hours, .dsCountDown .ds-element-seconds,
-.block-stl11:hover,
-.item-slider2 .owl-nav .owl-prev:hover, 
-.item-slider2 .owl-nav .owl-next:hover,
-.review_slider .owl-nav .owl-next:hover,
-.review_slider .owl-nav .owl-prev:hover,
-.history_slider .owl-nav .owl-next, .history_slider .owl-nav .owl-prev,
-.history_slider .owl-nav .owl-next:hover,.history_slider .owl-nav .owl-prev:hover,
-.home2 .nav-right-block ul li .cart-block,
-.this-month-blog .owl-nav .owl-next:hover,
-.this-month-blog .owl-nav .owl-prev:hover,
-.block-stl4 i:before,
-.fl-btn:before,
-.pegination-block .pagination>li>a:hover,
-.home2.main-nav .nav ul li.active:before,
-.home2.main-nav .nav ul li:before,
-.bg-single .image-holder li:hover a,
-.blog-pagination .pagination li a:hover,
-.blog-info-nav li a:hover,
-.slick_next.slick-arrow:hover,
-.slick_prev.slick-arrow:hover,
-.fastive-season .owl-nav .owl-next:hover,
-.fastive-season .owl-nav .owl-prev:hover,
-.main-nav .nav ul li.drop>.drop-down>li>a:hover,
-.theme-menu button.btn,
-.theme-menu button.btn:active,
-.go-to-top {
-	background: #c10a28;
-}
+	.btn2,
+	.main-nav,
+	.btn1.stl2,
+	.btn1.stl1:hover,
+	.special-offer-block .nav > li > .tab-a:hover:before,
+	.special-offer-block .owl-nav .owl-next:hover i:before,
+	.special-offer-block .owl-nav .owl-prev:hover i:before,
+	.special-offer-block .nav > li > span.active:before,
+	.btn3,
+	.deal-of-day .owl-nav .owl-next:hover,
+	.deal-of-day .owl-nav .owl-prev:hover,
+	.btn4:hover,
+	.copy-right,
+	.filter-tabnav .button-group li span:before,
+	.btn1.stl3:hover,
+	.block-stl10 .btn5:hover,
+	.block-stl11 i:before,
+	.block-stl14 .img-holder .overlay:before,
+	.great-thankful .img-holder:hover:before,
+	.tags li a:hover,
+	.special-offer-block .nav .filterer.active-btn span:before,
+	.special-offer-block .nav .filterer span:before,
+	.deal-of-day .dsCountDown.ds-white,
+	.dsCountDown .ds-element-days, .dsCountDown .ds-element-minutes,
+	.dsCountDown .ds-element-hours, .dsCountDown .ds-element-seconds,
+	.block-stl11:hover,
+	.item-slider2 .owl-nav .owl-prev:hover,
+	.item-slider2 .owl-nav .owl-next:hover,
+	.review_slider .owl-nav .owl-next:hover,
+	.review_slider .owl-nav .owl-prev:hover,
+	.history_slider .owl-nav .owl-next, .history_slider .owl-nav .owl-prev,
+	.history_slider .owl-nav .owl-next:hover, .history_slider .owl-nav .owl-prev:hover,
+	.home2 .nav-right-block ul li .cart-block,
+	.this-month-blog .owl-nav .owl-next:hover,
+	.this-month-blog .owl-nav .owl-prev:hover,
+	.block-stl4 i:before,
+	.fl-btn:before,
+	.pegination-block .pagination > li > a:hover,
+	.home2.main-nav .nav ul li.active:before,
+	.home2.main-nav .nav ul li:before,
+	.bg-single .image-holder li:hover a,
+	.blog-pagination .pagination li a:hover,
+	.blog-info-nav li a:hover,
+	.slick_next.slick-arrow:hover,
+	.slick_prev.slick-arrow:hover,
+	.fastive-season .owl-nav .owl-next:hover,
+	.fastive-season .owl-nav .owl-prev:hover,
+	.main-nav .nav ul li.drop > .drop-down > li > a:hover,
+	.theme-menu button.btn,
+    .theme-menu button.btn:active,
+    .go-to-top {
+        background: /*#c10a28*/ #F6EE85;
+	}
 
 
 .btn1.stl2,
@@ -127,7 +127,7 @@ a.link:hover,
 .fastive-season .owl-nav .owl-prev:hover,
 .bg-single-neww .owl-nav .owl-prev:hover,
 .bg-single-neww .owl-nav .owl-next:hover {
-	border-color: #c10a28;
+	border-color: /*#c10a28*/#ffffff;
 }
 .main-nav.home2 {
 	background: rgba(193, 10, 40, 0.2) ;
@@ -140,26 +140,26 @@ a.link:hover,
 }
 /*bg color shades*/
 .bg1 {
-	background: #c10a28;
+	background: /*#c10a28*/ #F6EE85;
 }
 .bg2 {
-	background: #cb102f;
+	background: /*#cb102f*/ #FAF390;
 }
 .bg3 {
-	background: #d51535;
+	background: /*#d51535*/ #FFF996;
 }
 .bg4 {
-	background: #e01b3c;
+	background: /*#e01b3c*/ #F6EE85;
 }
 .bg5 {
-	background: #e82243;
+	background: /*#e82243*/ #FAF390;
 }
 .bg6 {
-	background: #ee2849;
+	background: /*#ee2849*/ #FFF9B5;
 }
 .bg7 {
-	background: #f72e50;
+	background: /*#f72e50*/ #FFF996;
 }
 .bg8 {
-	background: #ff3759;
+	background: /*#ff3759*/ #F6EE85;
 }

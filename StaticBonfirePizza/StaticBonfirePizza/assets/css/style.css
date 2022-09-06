@@ -171,7 +171,7 @@ a:hover, a:focus, a.active {
 }
 
 a {
-    color: #fff;
+    color: /*#fff*/#000000;
 }
 
 .parallax {
@@ -617,7 +617,7 @@ h1.loader2 {
     position: fixed;
     right: 25px;
     bottom: -30px;
-    color: #fff;
+    color: /*#fff*/#000000;
     font-size: 2em;
     opacity: 0;
     cursor: pointer;
@@ -1013,7 +1013,7 @@ h1.loader2 {
 
 .logo .img-responsive {
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: 8px;
     width: auto;
     display: inline-block;
 }
@@ -1455,7 +1455,7 @@ a.btn1.stl1.animated {
 
     .block-stl1 span:before {
         font-size: 65px;
-        color: #fff;
+        color: /*#fff*/#000000;
         display: inline-block;
         margin-bottom: 5px;
         backface-visibility: hidden;
@@ -1464,7 +1464,7 @@ a.btn1.stl1.animated {
     .block-stl1 h4 {
         font-size: 25px;
         font-weight: 400;
-        color: #fff;
+        color: /*#fff*/#000000;
         backface-visibility: hidden;
     }
 
@@ -2587,7 +2587,7 @@ a.btn1.stl1.animated {
     .copy-right p {
         line-height: 34px;
         font-size: 16px;
-        color: #e6e6e6;
+        color: /*#e6e6e6*/#000000;
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
         display: inline-block;
@@ -2596,7 +2596,7 @@ a.btn1.stl1.animated {
 
         .copy-right p > a {
             font-weight: 500;
-            color: #fff;
+            color: /*#fff*/ #000000;
         }
 
 .social-nav {
@@ -4749,7 +4749,7 @@ ul.button-group {
     .block-stl11 i:before {
         display: inline-block;
         margin: 0 auto;
-        color: #fff;
+        color: /*#fff*/ #000000;
         font-size: 34px;
         line-height: 76px;
         width: 76px;
@@ -7154,5 +7154,100 @@ body.demo.load .intro-centered .demo-inner-wrapper p {
 
     100% {
         background-color: #F2C61F;
+    }
+}
+
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
     }
 }
