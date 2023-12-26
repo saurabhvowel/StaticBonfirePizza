@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\OfferController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -159,6 +160,7 @@
     <Content Include="assets\images\Aboutpizza.png" />
     <Content Include="assets\images\Aboutpizza1.png" />
     <Content Include="assets\images\ajax-loader.gif" />
+    <Content Include="assets\images\arrow-bottom.png" />
     <Content Include="assets\images\Banner1.gif" />
     <Content Include="assets\images\banner1.png" />
     <Content Include="assets\images\Banner2.gif" />
@@ -278,13 +280,9 @@
     <Content Include="assets\images\info-bg.jpg" />
     <Content Include="assets\images\instagram_icon.png" />
     <Content Include="assets\images\last-grl.jpg" />
-    <Content Include="assets\images\Layer-12%27.jpg" />
     <Content Include="assets\images\Layer-12.jpg" />
-    <Content Include="assets\images\Layer-13%27.jpg" />
     <Content Include="assets\images\Layer-13.jpg" />
-    <Content Include="assets\images\Layer-14%27.jpg" />
     <Content Include="assets\images\Layer-14.jpg" />
-    <Content Include="assets\images\Layer-15%27.jpg" />
     <Content Include="assets\images\Layer-15.jpg" />
     <Content Include="assets\images\Layer-16.png" />
     <Content Include="assets\images\Layer-17.jpg" />
@@ -396,6 +394,7 @@
     <Content Include="assets\fonts\slickd41d.eot" />
     <None Include="packages.config" />
     <Content Include="Views\Home\Privacy.cshtml" />
+    <Content Include="Views\Offer\SpinWheel.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

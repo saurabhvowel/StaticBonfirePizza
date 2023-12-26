@@ -6,14 +6,10 @@ using System.Web.Mvc;
 
 namespace StaticBonfirePizza.Controllers
 {
-    public class HomeController : Controller
+    public class OfferController : Controller
     {
-        public ActionResult Index()
-        {
-            return View();
-        }
-
-        public ActionResult Privacy()
+        // GET: Offer
+        public ActionResult SpinWheel()
         {
             return View();
         }

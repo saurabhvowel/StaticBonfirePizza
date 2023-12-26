@@ -612,6 +612,7 @@ h1.loader2 {
     }
 }
 
+
 /*============== go-to-top ==============*/
 .go-to-top {
     position: fixed;
@@ -4741,7 +4742,7 @@ ul.button-group {
 .block-stl11 {
     width: 100%;
     float: left;
-    padding: 52px 15px 30px;
+    padding: 52px 0px 30px;
     text-align: center;
     background: #fff;
 }
